@@ -220,10 +220,14 @@ const Portfolio = () => {
                   <span className="mr-2">View My Work</span>
                   <ExternalLink className="w-5 h-5 inline group-hover:translate-x-1 transition-transform" />
                 </button>
-                <button className="group px-8 py-4 border-2 border-emerald-400 text-emerald-400 rounded-full font-semibold text-lg hover:bg-emerald-400 hover:text-slate-900 transition-all duration-300 flex items-center justify-center gap-2">
+                <a
+                  href="/Aftab updated CV.pdf"
+                  download
+                  className="group px-8 py-4 border-2 border-emerald-400 text-emerald-400 rounded-full font-semibold text-lg hover:bg-emerald-400 hover:text-slate-900 transition-all duration-300 flex items-center justify-center gap-2"
+                >
                   <Download className="w-5 h-5 group-hover:animate-bounce" />
                   Download CV
-                </button>
+                </a>
               </div>
 
               {/* Social Links */}
