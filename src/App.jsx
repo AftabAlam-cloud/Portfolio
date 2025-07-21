@@ -188,6 +188,14 @@ const Portfolio = () => {
                   <span className="text-transparent bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text">
                     Full Stack Developer
                   </span>
+                  {' & '}
+                  <span className="text-transparent bg-gradient-to-r from-teal-400 to-cyan-400 bg-clip-text">
+                    Freelancer
+                  </span>
+                  {' & '}
+                  <span className="text-transparent bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text">
+                    Java Developer
+                  </span>
                 </p>
                 <p className="text-lg text-gray-300 max-w-2xl">
                 As a highly motivated and IT graduate in many field
